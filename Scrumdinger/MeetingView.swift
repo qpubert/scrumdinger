@@ -24,12 +24,21 @@ struct MeetingView: View {
                     Label("600", systemImage: "hourglass.tophalf.fill")
                 }
             }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(Text("Time remaining"))
+            .accessibilityLabel(Text("10 minutes"))
             Circle()
                 .strokeBorder(lineWidth: 24, antialiased: true)
             HStack {
                 Text("Speaker 1 of 3")
+                Spacer()
+                Button(action: {}) {
+                    Image(systemName: "forward.fill")
+                }
+                .accessibilityLabel(Text("Next speaker"))
             }
         }
+        .padding()
     }
 }
 
