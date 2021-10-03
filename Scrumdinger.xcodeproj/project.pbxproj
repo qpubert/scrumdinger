@@ -18,6 +18,7 @@
 		83966F802709D58C000E7EBC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F7F2709D58C000E7EBC /* CardView.swift */; };
 		83966F862709DC52000E7EBC /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F852709DC52000E7EBC /* Color+Codable.swift */; };
 		83966F882709EDC3000E7EBC /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F872709EDC3000E7EBC /* ScrumsView.swift */; };
+		83966F8A270A05CD000E7EBC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F89270A05CD000E7EBC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		83966F7F2709D58C000E7EBC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		83966F852709DC52000E7EBC /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		83966F872709EDC3000E7EBC /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		83966F89270A05CD000E7EBC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				83966F5527086AD0000E7EBC /* MeetingView.swift */,
 				83966F7F2709D58C000E7EBC /* CardView.swift */,
 				83966F872709EDC3000E7EBC /* ScrumsView.swift */,
+				83966F89270A05CD000E7EBC /* DetailView.swift */,
 				83966F5727086AD1000E7EBC /* Assets.xcassets */,
 				83966F5927086AD1000E7EBC /* Preview Content */,
 			);
@@ -280,6 +283,7 @@
 				83966F5627086AD0000E7EBC /* MeetingView.swift in Sources */,
 				83966F882709EDC3000E7EBC /* ScrumsView.swift in Sources */,
 				83966F7E2709D140000E7EBC /* DailyScrum.swift in Sources */,
+				83966F8A270A05CD000E7EBC /* DetailView.swift in Sources */,
 				83966F802709D58C000E7EBC /* CardView.swift in Sources */,
 				83966F862709DC52000E7EBC /* Color+Codable.swift in Sources */,
 				83966F5427086AD0000E7EBC /* ScrumdingerApp.swift in Sources */,
