@@ -14,6 +14,7 @@
 		83966F6527086AD1000E7EBC /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F6427086AD1000E7EBC /* ScrumdingerTests.swift */; };
 		83966F6F27086AD1000E7EBC /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F6E27086AD1000E7EBC /* ScrumdingerUITests.swift */; };
 		83966F7127086AD1000E7EBC /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F7027086AD1000E7EBC /* ScrumdingerUITestsLaunchTests.swift */; };
+		83966F7E2709D140000E7EBC /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F7D2709D140000E7EBC /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		83966F6A27086AD1000E7EBC /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83966F6E27086AD1000E7EBC /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		83966F7027086AD1000E7EBC /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83966F7D2709D140000E7EBC /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				83966F5327086AD0000E7EBC /* ScrumdingerApp.swift */,
 				83966F5527086AD0000E7EBC /* MeetingView.swift */,
+				83966F7D2709D140000E7EBC /* DailyScrum.swift */,
 				83966F5727086AD1000E7EBC /* Assets.xcassets */,
 				83966F5927086AD1000E7EBC /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83966F5627086AD0000E7EBC /* MeetingView.swift in Sources */,
+				83966F7E2709D140000E7EBC /* DailyScrum.swift in Sources */,
 				83966F5427086AD0000E7EBC /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
