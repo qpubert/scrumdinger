@@ -22,6 +22,7 @@
 		83966F882709EDC3000E7EBC /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F872709EDC3000E7EBC /* ScrumsView.swift */; };
 		83966F8A270A05CD000E7EBC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F89270A05CD000E7EBC /* DetailView.swift */; };
 		83F7D0BA270B4F8600CEE66A /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D0B9270B4F8600CEE66A /* ScrumProgressViewStyle.swift */; };
+		83F7D0BC270B573A00CEE66A /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D0BB270B573A00CEE66A /* ScrumTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		83966F872709EDC3000E7EBC /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		83966F89270A05CD000E7EBC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		83F7D0B9270B4F8600CEE66A /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		83F7D0BB270B573A00CEE66A /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		83966F842709DBFB000E7EBC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				83F7D0BB270B573A00CEE66A /* ScrumTimer.swift */,
 				83966F852709DC52000E7EBC /* Color+Codable.swift */,
 				83966F7D2709D140000E7EBC /* DailyScrum.swift */,
 			);
@@ -295,6 +298,7 @@
 				83101B6F270A3EFD007D089E /* MeetingHeaderView.swift in Sources */,
 				83966F7E2709D140000E7EBC /* DailyScrum.swift in Sources */,
 				83966F8A270A05CD000E7EBC /* DetailView.swift in Sources */,
+				83F7D0BC270B573A00CEE66A /* ScrumTimer.swift in Sources */,
 				83966F802709D58C000E7EBC /* CardView.swift in Sources */,
 				83966F862709DC52000E7EBC /* Color+Codable.swift in Sources */,
 				83F7D0BA270B4F8600CEE66A /* ScrumProgressViewStyle.swift in Sources */,
