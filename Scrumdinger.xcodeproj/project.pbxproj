@@ -21,6 +21,7 @@
 		83966F862709DC52000E7EBC /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F852709DC52000E7EBC /* Color+Codable.swift */; };
 		83966F882709EDC3000E7EBC /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F872709EDC3000E7EBC /* ScrumsView.swift */; };
 		83966F8A270A05CD000E7EBC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83966F89270A05CD000E7EBC /* DetailView.swift */; };
+		83F7D0BA270B4F8600CEE66A /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D0B9270B4F8600CEE66A /* ScrumProgressViewStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		83966F852709DC52000E7EBC /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		83966F872709EDC3000E7EBC /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		83966F89270A05CD000E7EBC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		83F7D0B9270B4F8600CEE66A /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		83966F5227086AD0000E7EBC /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				83F7D0B9270B4F8600CEE66A /* ScrumProgressViewStyle.swift */,
 				83966F842709DBFB000E7EBC /* Models */,
 				83966F5327086AD0000E7EBC /* ScrumdingerApp.swift */,
 				83101B6C270A16E5007D089E /* EditView.swift */,
@@ -294,6 +297,7 @@
 				83966F8A270A05CD000E7EBC /* DetailView.swift in Sources */,
 				83966F802709D58C000E7EBC /* CardView.swift in Sources */,
 				83966F862709DC52000E7EBC /* Color+Codable.swift in Sources */,
+				83F7D0BA270B4F8600CEE66A /* ScrumProgressViewStyle.swift in Sources */,
 				83966F5427086AD0000E7EBC /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
